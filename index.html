@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penguinsnakes Creations</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #000;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        .creations {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .creation {
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+
+        .creation:hover {
+            transform: scale(1.03);
+        }
+
+        .creation img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .creation-info {
+            padding: 20px;
+        }
+
+        .creation-title {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .creation-description {
+            font-size: 16px;
+            color: #666;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Welcome to Penguinsnakes Creations</h1>
+    </header>
+
+    <div class="container">
+        <h2>Our Creations</h2>
+        <div class="creations">
+            <!-- You can add your creations here -->
+            <div class="creation">
+                <img src="example_image1.jpg" alt="Creation 1">
+                <div class="creation-info">
+                    <h3 class="creation-title">Creation Title 1</h3>
+                    <p class="creation-description">Description of Creation 1.</p>
+                </div>
+            </div>
+            <div class="creation">
+                <img src="example_image2.jpg" alt="Creation 2">
+                <div class="creation-info">
+                    <h3 class="creation-title">Creation Title 2</h3>
+                    <p class="creation-description">Description of Creation 2.</p>
+                </div>
+            </div>
+            <!-- Add more creations as needed -->
+        </div>
+    </div>
+
+</body>
+
+</html>
